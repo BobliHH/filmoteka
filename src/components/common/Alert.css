@@ -24,5 +24,6 @@
 }
 .alert.is-elevated {
   box-shadow: rgba(253, 236, 0, 0.2) 0px 3px 3px -2px,
-    rgba(241, 238, 3, 0.14) 10px 3px 4px 0px, rgba(232, 248, 2, 0.12) 100px 5px 10px 0px;
+    rgba(241, 238, 3, 0.14) 10px 3px 4px 0px,
+    rgba(232, 248, 2, 0.12) 100px 5px 10px 0px;
 }

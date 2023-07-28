@@ -1,16 +1,16 @@
 import PropTypes from 'prop-types';
 export const Title = ({ title, tag }) => {
-    const fontSize = {
-        h1: 46,
-        h2: 38,
-        h3: 30,
-        h4: 25,
-    }
-    const styles = {
-        color: "white",
-        backgroundColor: "black",
-        fontSize: fontSize[tag],
-    };
+  const fontSize = {
+    h1: 46,
+    h2: 38,
+    h3: 30,
+    h4: 25,
+  };
+  const styles = {
+    color: 'white',
+    backgroundColor: 'black',
+    fontSize: fontSize[tag],
+  };
 
   if (tag === 'h1') {
     return <h1 style={styles}>{title}</h1>;
