@@ -10,7 +10,7 @@ export const App = () => {
         <Header />
       </Container>
       <Container>
-        <Main />
+        <Main />x
       </Container>
       <Container solidColor="#dedede">footer</Container>
       {/* header */}
