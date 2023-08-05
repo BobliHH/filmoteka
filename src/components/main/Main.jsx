@@ -26,7 +26,7 @@ export class Main extends Component {
   }
   fetchData() {
     fetch(
-      `https://api.themoviedb.org/3/trending/movie/day?page=1&api_key=8b218b85545392c9f8705c30fbfd1bce`
+      `https://api.themoviedb.org/3/trending/movie/day?page=1&api_key=53b2ac0d64cbeedea763734f4fe8a4ce`
     )
       .then(response => {
         return response.json();
